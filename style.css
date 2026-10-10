@@ -1,0 +1,26 @@
+body {
+    font-family: Lucida, serif;
+    background-color: #d2eeee;
+    color: #222;
+}
+h1 {
+    font-family: Lucida, serif;
+    color: #222;
+}
+header p {
+    font-family: Lucida, cursive;
+    color: #3b027c;
+}
+h2 {
+    font-family: Lucida, serif;
+    color: #222;
+}
+h2 p {
+    font-family: Lucida, sans-serif;
+    color: #222;
+}
+footer a {
+    font-family: Lucida, sans-serif;
+    font-style:  italic;
+    color: #222;
+}
