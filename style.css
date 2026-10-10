@@ -1,3 +1,11 @@
+html {
+    background-color: #d2eeee;
+    background-image: url("NASA_NGC_1672.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 body {
     font-family: "Lucida Sans", Georgia, sans-serif;
     background-color: #d2eeee;
@@ -44,4 +52,11 @@ footer {
     text-align: center;
     padding: 20px 0;
     border-top: 1px solid #222;
+}
+.card {
+    background-color: white;
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
