@@ -4,6 +4,7 @@ html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -65,4 +66,23 @@ footer {
     max-width: 100%;
     height: auto;
     border-radius: 4px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5a3dc4;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
