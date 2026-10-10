@@ -54,6 +54,15 @@ footer {
     padding: 20px 0;
     border-top: 1px solid #222;
 }
+
+a {
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #7a2fd0;
+}
+
 .card {
     background-color: white;
     border: 1px solid #222;
@@ -66,6 +75,12 @@ footer {
     max-width: 100%;
     height: auto;
     border-radius: 4px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
